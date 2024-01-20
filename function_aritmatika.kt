@@ -14,7 +14,7 @@ fun bagi(a: Double, b: Double): Double{
 }
 
 
-fun segitiga(sgt: Double, a: Double, t: Double): Double{
+fun segitiga(a: Int, t: Int): Double{
     return 0.5 * a * t
 }
 
@@ -38,6 +38,6 @@ fun main() {
    val pp = persegipnjng(20, 10)
    println("ini adalah hasil luas persegi panjang: $pp")
    
-   val sgt = segitiga(0.5, 20.0, 10.0)
+   val sgt = segitiga(20, 10)
    println("ini adalah hasil luas segitiga: $sgt")
 }
